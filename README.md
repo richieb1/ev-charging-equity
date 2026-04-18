@@ -27,6 +27,7 @@ Are lower-income California counties being underserved by public charging infras
 [California EV Charging Equity — Tableau Public](https://public.tableau.com/app/profile/richie.bhardwaj/viz/CaliforniaEVChargingEquity/Dashboard1)
 
 ## Project Structure
+```
 ev_charging_equity/
 ├── setup_db.py          # loads CSVs into SQLite database
 ├── queries.py           # SQL queries for data extraction
@@ -34,6 +35,7 @@ ev_charging_equity/
 ├── ev_equity_clean.csv  # cleaned county-level analysis table
 ├── ev_equity.db         # SQLite database
 └── README.md
+```
 
 ## How to Run
 1. Clone the repo
